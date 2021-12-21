@@ -8,8 +8,12 @@ public class Wrapper {
 		
 		Byte b = 1;
 		Short s = 1000;
-		Integer i = 1000;
+		Integer i = Integer.parseInt("1000");  // int
 		Long l = 1000000L;
+		
+		System.out.println(b.byteValue());
+		System.out.println(s.toString());
+		System.out.println();
 	}
 
 }
